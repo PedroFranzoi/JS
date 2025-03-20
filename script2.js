@@ -1,3 +1,3 @@
-let palavra = prompt('Digite uma palavra')
+let palavra = prompt('Digite uma palavra');
 
-function inverterTexto(palavra)
+palavra.reverse();
