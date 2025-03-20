@@ -1,10 +1,11 @@
-let numero = 5;
+let numero = prompt('Digite seu numero.');
 
-
-function verificarPar() {
-    if(numero % 2 == 0){
-        console.log('O número é par');
-    } else{ console.log('O número é impar');
+function verificarPar(numero){
+    if(numero % 2 === 0){
+        console.log(numero + " é par.");
+    }else{
+        console.log(numero + " é impar.");
     }
 }
 
+verificarPar(numero);
