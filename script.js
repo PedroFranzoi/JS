@@ -30,3 +30,12 @@ function calcular(numero1, numero2){
 
 calcular(numero1, numero2);
 //Fim da questão 2
+
+//Inicio da questão 3
+let i = 10;
+
+while(i > 0){
+    console.log(i);
+    i--;
+}
+//Fim da questão 3
