@@ -1,0 +1,10 @@
+let numero = 5;
+
+
+function verificarPar() {
+    if(numero % 2 == 0){
+        console.log('O número é par');
+    } else{ console.log('O número é impar');
+    }
+}
+
