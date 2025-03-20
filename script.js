@@ -1,3 +1,4 @@
+//Inicio da questão 1
 let numero = prompt('Digite seu numero.');
 
 function verificarPar(numero){
@@ -9,3 +10,23 @@ function verificarPar(numero){
 }
 
 verificarPar(numero);
+//Fim da questão 1
+
+
+//Inicio da questão 2
+let numero1 = parseFloat(prompt('Digite o primeiro numero'));
+let numero2 = parseFloat(prompt('Digite o segundo numero'));
+
+function calcular(numero1, numero2){
+  const soma = numero1 + numero2;
+  console.log('O resultado da somo é: ' + soma);
+  const subtracao = numero1 - numero2;
+  console.log('O resultado da subtração é: ' + subtracao);
+  const multiplicacao = numero1 * numero2;
+  console.log('O resultado da multiplicação é: ' + multiplicacao);
+  const divisao = numero1 / numero2;
+  console.log('O resultado da divisão é: ' + divisao);
+}
+
+calcular(numero1, numero2);
+//Fim da questão 2
