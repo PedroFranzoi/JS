@@ -1,4 +1,2 @@
-/*Crie uma função chamada mensagemPersonalizada que tenha dois parâmetros,  nome e mensagem, 
-sendo que o parâmetro mensagem deve ter um valor padrão de "Olá!".
- A função deve imprimir a mensagem personalizada com o nome da pessoa*/
+/*Crie uma função chamada inverterTexto que receba uma string como parâmetro e retorne essa string invertida*/
 

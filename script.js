@@ -41,7 +41,15 @@ while(i > 0){
 //Fim da questão 3
 
 //Inicio da questão 4
+function inverterTexto(palavra) {
+    let inverPalavra ='';
+    for(let i = palavra.length - 1; i >= 0; i--) {
+        inverPalavra = inverPalavra + palavra[i];
+    }
+   console.log(inverPalavra);
+}
 
+inverterTexto(prompt());
 //Fim da questão 4
 
 //inicio da questão 5
