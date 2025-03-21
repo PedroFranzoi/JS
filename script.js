@@ -167,3 +167,13 @@ while(j <= 100){
 }
 console.log(total);
 //Fim da questão 13
+
+//Inicio da questão 14
+function substituirPalavra(text){
+    conslole.log( text.replace(/azul/g, "vermelho"));
+}
+let texto = prompt('Digite seu texto.');
+substituirPalavra(text);
+//Fim da questão 14
+
+//Inicio da questão 15
