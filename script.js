@@ -39,3 +39,66 @@ while(i > 0){
     i--;
 }
 //Fim da questão 3
+
+//Inicio da questão 4
+
+//Fim da questão 4
+
+//inicio da questão 5
+let palavra = prompt('Escreva uma palavra.');
+let contagem = palavra.length;
+
+function contarCaracteres(contagem){
+    let quantidade = contagem;
+    console.log('A quantidade de caracteres é: ' + quantidade);
+}
+
+contarCaracteres(contagem);
+//Fim da questão 5
+
+//Inicio da questão 6
+let carro = {
+    marca: 'Hyundai',
+    modelo: 'CRETA',
+    ano: '2025',
+    imprimir: function() {
+        console.log('O modelo do carro é: ' + this.modelo)
+    }
+};
+
+carro.imprimir();
+//Fim da questão 6
+
+//Inicio da questão 7
+let nome = prompt('Digite o nome.');
+let mensagem = prompt('Digite a mesnagem.');
+
+function mensagemPersonalizada(nome, mensagem){
+    console.log('Olá! ' + nome + ' ' + mensagem);
+}
+
+mensagemPersonalizada(nome, mensagem);
+//Fim da questão 7
+
+//Inicio da questão 8
+let n1 = parseFloat(prompt('Digite o primeiro numero'));
+let n2 = parseFloat(prompt('Digite o segundo numero'));
+let n3 = parseFloat(prompt('Digite o terceiro numero'));
+
+function media(n1, n2, n3){
+    const resultado = (n1 + n2 + n3) / 3;
+    console.log('A média é de: ' + resultado)
+}
+
+media(n1, n2, n3);
+//Fim da questão 8
+
+//Inicio da questão 9
+for(let i = 1; i <= 20; i++) {
+    if(i % 3 === 0){
+        console.log(i + ' é múltiplo de 3.');
+    } else{
+        console.log(i + ' Não é múltiplo de 3.');
+    }
+}
+//Fim da questão 9
