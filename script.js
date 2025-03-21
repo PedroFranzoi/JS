@@ -131,3 +131,20 @@ verificarPalindromo(palavraDois);
 //Fim da questão 10
 
 //Inicio da questão 11
+let inteiro = prompt('Digite um numero.');
+
+function verificarSinal(inteiro) {
+    if(inteiro > 0){
+        console.log('O numero ' + inteiro + ' é positivo.');
+    } 
+    if(inteiro < 0){
+        console.log('O numero ' + inteiro + ' é negativo.');
+    }
+    if(inteiro == 0){
+        console.log('O numero ' + inteiro + ' é zero');
+    }
+}
+verificarSinal(inteiro);
+//Fim da questão 11
+
+//Inicio da questão 12
