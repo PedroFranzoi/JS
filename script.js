@@ -159,3 +159,11 @@ converterTemperatura(graus);
 //Fim da questão 12
 
 //Inicio da questão 13
+let j = 1;
+let total = 0;
+while(j <= 100){
+     total = total + j;
+    j++;
+}
+console.log(total);
+//Fim da questão 13
