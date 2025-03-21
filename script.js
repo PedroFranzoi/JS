@@ -110,3 +110,24 @@ for(let i = 1; i <= 20; i++) {
     }
 }
 //Fim da questão 9
+
+// Inicio da questão 10
+let palavraDois = prompt('Digite uma palavra.')
+
+function verificarPalindromo(palavraDois) {
+    let inverPalavraDois ='';
+    for(let i = palavraDois.length - 1; i >= 0; i--) {
+        inverPalavraDois = inverPalavraDois + palavraDois[i];
+    }
+   
+    if(inverPalavraDois === palavraDois){
+        console.log('A apalavra ' + palavraDois + ' é um palindromo.');
+    }else{
+        console.log('nA apalavra ' + palavraDois + ' não é um palindromo.');
+    }
+}
+   
+verificarPalindromo(palavraDois);
+//Fim da questão 10
+
+//Inicio da questão 11
