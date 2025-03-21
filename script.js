@@ -148,3 +148,14 @@ verificarSinal(inteiro);
 //Fim da questão 11
 
 //Inicio da questão 12
+let graus = prompt('Digite uma temperatura em graus celsius.');
+
+function converterTemperatura(graus){
+    F = (graus * (9/5)) + 32
+    console.log('A temperatura ' + graus + ' em celsios equivale a ' + F + ' em Fahrenheit');
+}
+
+converterTemperatura(graus);
+//Fim da questão 12
+
+//Inicio da questão 13
