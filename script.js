@@ -191,3 +191,9 @@ verificarTamanho (palavra2);
 //Fim da questão 15
 
 //Inicio da questão 16
+frutas = ["Banana", "Uva", "Morango", "Manga", "Abacaxi"];
+
+console.log(frutas[2]);
+//Fim da questão 16
+
+//Inicio da questão 17
