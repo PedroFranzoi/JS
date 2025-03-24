@@ -177,3 +177,17 @@ substituirPalavra(text);
 //Fim da questão 14
 
 //Inicio da questão 15
+let palavra2 = prompt('Digite uma palavra.');
+
+function verificarTamanho (palavra2){
+    let letras = palavra2.length;
+    if(letras <= 10){
+        console.log("A palavra não tem mais de 10 letras.")
+    }else{
+        console.log("A palavra tem mais de 10 letras.")
+    }
+}
+verificarTamanho (palavra2);
+//Fim da questão 15
+
+//Inicio da questão 16
