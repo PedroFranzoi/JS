@@ -197,3 +197,12 @@ console.log(frutas[2]);
 //Fim da questão 16
 
 //Inicio da questão 17
+const saudacaoEducada = "Bem vindo(a)";
+let nome2 = prompt('Digite seu nome.');
+
+function saudacao(saudacaoEducada, nome2){
+    console.log(saudacaoEducada + ' ' + nome2);
+}
+
+saudacao(saudacaoEducada, nome2);
+//Fim da questão 17
