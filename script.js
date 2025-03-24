@@ -206,3 +206,16 @@ function saudacao(saudacaoEducada, nome2){
 
 saudacao(saudacaoEducada, nome2);
 //Fim da questão 17
+let nota = prompt('Digite sua nota.');
+
+function verificarAprovacao(nota){
+    if(nota >= 6){
+        console.log('Aprovado.')
+    }else{
+        console.log('Reprovado.')
+    }
+}
+verificarAprovacao(nota);
+//Fim da questão 17
+
+//Inicio da questão 18
