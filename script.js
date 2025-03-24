@@ -219,3 +219,13 @@ verificarAprovacao(nota);
 //Fim da questão 17
 
 //Inicio da questão 18
+let i2 = 30;
+
+for(i2 = 30; i2 >= 0; i2--){
+    if(i2 % 2 === 0){
+        console.log(i2);
+    }
+}
+//Fim da questão 18
+
+//inicio da questão 19
