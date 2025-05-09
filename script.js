@@ -229,3 +229,87 @@ for(i2 = 30; i2 >= 0; i2--){
 //Fim da questão 18
 
 //inicio da questão 19
+for(let i = 30; i >= 0; i--){
+    if(i % 2 === 0){
+        console.log(i);
+    }
+}
+//Fim da questão 19
+
+//Inicio da questão 20
+let frase = prompt('Digite uma palavra.');
+let numeroVogais = 0;
+function contarVogais(frase){
+    for(let iii = 0; iii < frase.length; iii++){
+        if(frase[iii] == 'a' ||  frase[iii] == 'e'||  frase[iii] == 'i'||  frase[iii] == 'o'||  frase[iii] == 'u'||  frase[iii] == 'A'||  frase[iii] == 'E'||  frase[iii] == 'I'||  frase[iii] == 'O'||  frase[iii] == 'U'){
+            numeroVogais = numeroVogais + 1;
+        }
+    }
+    console.log(numeroVogais);
+}
+contarVogais(frase);
+//Fim da questão 20
+
+//Inicio da questão 21
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let somaTotal = 0;
+// total = 45
+function somarArray(numeros){
+    for(let ii = 0; ii < numeros.length; ii++){
+        somaTotal  = somaTotal + numeros[ii];
+    }
+    console.log(somaTotal);
+}
+somarArray(numeros);
+//Fim da questão 21
+
+//Inicio da questão 22
+let numeroMenor = prompt('Digite um numero');
+
+function dobrarNumero(numeroMenor){
+    let dobro = numeroMenor * 2;
+    console.log(dobro)
+}
+
+dobrarNumero(numeroMenor);
+//Fim da questão 22
+
+//Inicio da questão 23
+let valor = 20;
+
+while(valor > 1){
+    console.log(valor);
+    valor--;
+}
+//Fim da questão 23
+
+//Inicio da questão 24
+let frase2 = prompt('Digite uma palavra.')
+let novaFrase2 = '';
+
+function capitalizar(novaFrase2){
+    for(let i5 = 0; i5 < frase2.length; i5++){
+        if(i5 === 0){
+    novaFrase2 = novaFrase2 + frase2[i5].toUpperCase();
+    }else{
+        novaFrase2 = novaFrase2 + frase2[i5];
+    }
+}
+console.log(novaFrase2)
+}
+capitalizar(novaFrase2);
+//Fim da questão 24
+
+//Inicio da questão 25
+let ano = prompt('Digite um ano.');
+
+function anoBissexto(ano){
+    if(ano % 4 === 0){
+        console.log('True.');
+    }else{
+        console.log('False.');
+    }
+}
+
+anoBissexto(ano);
+//Fim da questão 25
